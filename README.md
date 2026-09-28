@@ -17,7 +17,9 @@ Backtesting framework for systematic option strategies on SPY (2020 to 2022): fo
 
 The variance swap leg follows the log-contract replication (Demeterfi et al., 1999; CBOE VIX methodology):
 
-$$K_{\text{var}} = \frac{2}{T}\sum_i \frac{\Delta K_i}{K_i^2}\, e^{rT} O(K_i), \qquad \text{P\&L}_T = N\left(\sigma_{\text{RV}}^2 - K_{\text{var}}\right).$$
+```math
+K_{\text{var}} = \frac{2}{T}\sum_i \frac{\Delta K_i}{K_i^2}\, e^{rT} O(K_i), \qquad \text{PnL}_T = N\left(\sigma_{\text{RV}}^2 - K_{\text{var}}\right)
+```
 
 ## Structure
 
