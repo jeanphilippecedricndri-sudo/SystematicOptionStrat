@@ -1,0 +1,15 @@
+# Real market options data: not included in the repo (available on request)
+data/*
+!data/spy_simulated_2020_2022.csv
+!data/README.md
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.DS_Store
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
